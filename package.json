@@ -1,7 +1,7 @@
 {
   "name": "react-router-topbar",
   "version": "0.0.1",
-  "description": "A React Router Top Loading Bar component made using nprogress, compatible with React transition and router loaders.",
+  "description": "React Router top loading bar component made using NProgress, compatible with React transition and router loaders.",
   "keywords": [
     "React",
     "React TopLoader",

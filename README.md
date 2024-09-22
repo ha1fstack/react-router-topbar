@@ -1,7 +1,8 @@
 # React Router Topbar
 
-### Topbar Component for React Router v6, that just works.
+### Top Loading Bar component for React Router v6, that just works.
 
+- made using [NProgress](https://ricostacruz.com/nprogress/).
 - supports **data route with loader**
 - supports **future.v7_startTransition**
 
