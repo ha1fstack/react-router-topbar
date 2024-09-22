@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+esm
+
+# Editor folders
+.idea/
+.vscode/
+
+# testing
+coverage
+__screenshots__
+vitest.config.ts.timestamp*
+tsconfig.vitest-temp.json
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+.pnpm-debug.log*
+npm-debug.*
+
+# Operating system files
+.DS_Store
+
+# Keys
+.env

@@ -1,0 +1,72 @@
+{
+  "name": "react-router-topbar",
+  "version": "0.0.1-beta.1",
+  "description": "A React Router Top Loading Bar component made using nprogress, compatible with React transition and router loaders.",
+  "keywords": [
+    "React",
+    "React TopLoader",
+    "React.js",
+    "React Router",
+    "Nprogress",
+    "Top Loading Bar",
+    "Progressbar"
+  ],
+  "bugs": {
+    "url": "https://github.com/ha1fstack/react-router-topbar/issues"
+  },
+  "repository": "https://github.com/ha1fstack/react-router-topbar",
+  "license": "MIT",
+  "author": "ha1fstack",
+  "main": "src/index.tsx",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "lint": "eslint --fix --cache src/",
+    "release": "dotenv release-it --",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@release-it/keep-a-changelog": "^5.0.0",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18.3.3",
+    "@vercel/style-guide": "^6.0.0",
+    "clean-package": "^2.2.0",
+    "dotenv-cli": "^7.4.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-packagejson": "^2.5.2",
+    "react": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "release-it": "^17.6.0",
+    "release-it-pnpm": "^4.6.3",
+    "tsup": "^8.3.0",
+    "typescript": "catalog:typescript"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-router-dom": "^6"
+  },
+  "packageManager": "pnpm@9.11.0",
+  "clean-package": {
+    "replace": {
+      "main": "dist/index.js",
+      "module": "dist/index.mjs",
+      "types": "dist/index.d.ts",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "import": "./dist/index.mjs",
+          "require": "./dist/index.js"
+        },
+        "./package.json": "./package.json"
+      }
+    }
+  }
+}
