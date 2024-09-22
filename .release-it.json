@@ -6,7 +6,7 @@
   },
   "github": {
     "release": true,
-    "releaseName": "${npm.name}@${version}"
+    "releaseName": "v${version}"
   },
   "npm": {
     "versionArgs": ["--workspaces-update=false"]
