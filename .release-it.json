@@ -18,7 +18,8 @@
     "release-it-pnpm": {},
     "@release-it/keep-a-changelog": {
       "addUnreleased": true,
-      "filename": "CHANGELOG.md"
+      "filename": "CHANGELOG.md",
+      "strictLatest": false
     }
   }
 }

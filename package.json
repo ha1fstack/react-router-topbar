@@ -1,6 +1,6 @@
 {
   "name": "react-router-topbar",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.4",
   "description": "A React Router Top Loading Bar component made using nprogress, compatible with React transition and router loaders.",
   "keywords": [
     "React",
@@ -26,6 +26,8 @@
     "build": "tsup",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "eslint --fix --cache src/",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore",
     "release": "dotenv release-it --",
     "typecheck": "tsc -p tsconfig.json"
   },
